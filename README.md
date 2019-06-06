@@ -1,2 +1,2 @@
 # CardGameJavaServer
-CardGameServer based in Akka (Java) with Flatbuffers
+CardGameServer based in Nety With Akka with Flatbuffers
