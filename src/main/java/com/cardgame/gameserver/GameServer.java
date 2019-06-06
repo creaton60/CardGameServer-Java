@@ -18,14 +18,8 @@ public class GameServer {
         this.port = port;
     }
 
-    public static void main(String[] args) {
-        int port;
-
-        if(args.length > 0) {
-            port = Integer.parseInt(args[0]); //FIXME: how port configuration? resources?
-        } else  {
-            port = 9988;
-        }
+    public static void main(String[] args) throws InterruptedException {
+        new GameServer(8888).run();
     }
 
     private void run() throws InterruptedException {
